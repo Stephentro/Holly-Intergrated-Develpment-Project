@@ -7,7 +7,6 @@ body {
     background: #ffffff;
     font-family: 'Quicksand', sans-serif;
 }
-
 h1,
 h2, 
 h3, 
@@ -25,7 +24,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-    color: #FDBE33;
+    color: #2e0101;
     outline: none;
     text-decoration: none;
 }
@@ -529,7 +528,7 @@ a:focus {
     margin-bottom: 45px;
     padding: 210px 0 90px 0;
     text-align: center;
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/page-header.jpg);
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/commitee_work.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -626,13 +625,14 @@ a:focus {
     font-size: 22px;
     font-weight: 600;
     text-transform: capitalize;
-    color: #FDBE33;
+    color:red;
 }
 
 .section-header h2 {
     margin: 0;
     font-size: 45px;
     font-weight: 700;
+    color: #000000;
 }
 
 @media (max-width: 991.98px) {
@@ -688,7 +688,7 @@ a:focus {
 
 .about .about-tab .nav.nav-pills .nav-link:hover,
 .about .about-tab .nav.nav-pills .nav-link.active {
-    color: #FDBE33;
+    color: #e02a2a;
     padding-bottom: 7px;
     border-bottom: 3px solid #FDBE33;
 }
